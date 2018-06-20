@@ -1,17 +1,134 @@
 {
   "settings": {
-    "name": "Site-01-07_0952",
+    "name": "Mai Chau",
     "currentPage": "index.html",
     "theme": {
-      "name": "default",
-      "title": "Mobirise",
-      "styling": {},
-      "additionalSetColors": []
+      "name": "mobirise3",
+      "title": "Mobirise3",
+      "styling": {
+        "primaryColor": "#f3c649",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Merienda",
+        "subtitleFont": "Lora",
+        "textFont": "Patrick Hand",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#282828",
+        "#4b2515",
+        "#5b5b5b",
+        "#232323",
+        "#8c8c8c"
+      ]
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "4.5.4",
-    "uniqCompNum": 9,
-    "versionPublish": "4.5.4",
+    "siteFonts": [
+      {
+        "css": "'Hind', sans-serif",
+        "name": "Hind",
+        "url": "https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700"
+      },
+      {
+        "css": "'Lobster', display",
+        "name": "Lobster",
+        "url": "https://fonts.googleapis.com/css?family=Lobster:400"
+      },
+      {
+        "css": "'Pacifico', handwriting",
+        "name": "Pacifico",
+        "url": "https://fonts.googleapis.com/css?family=Pacifico:400"
+      },
+      {
+        "css": "'Comfortaa', display",
+        "name": "Comfortaa",
+        "url": "https://fonts.googleapis.com/css?family=Comfortaa:300,400,700"
+      },
+      {
+        "css": "'Amatic SC', handwriting",
+        "name": "Amatic SC",
+        "url": "https://fonts.googleapis.com/css?family=Amatic+SC:400,700"
+      },
+      {
+        "css": "'Advent Pro', sans-serif",
+        "name": "Advent Pro",
+        "url": "https://fonts.googleapis.com/css?family=Advent+Pro:100,200,300,400,500,600,700"
+      },
+      {
+        "css": "'Josefin Sans', sans-serif",
+        "name": "Josefin Sans",
+        "url": "https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i"
+      },
+      {
+        "css": "'Dancing Script', handwriting",
+        "name": "Dancing Script",
+        "url": "https://fonts.googleapis.com/css?family=Dancing+Script:400,700"
+      },
+      {
+        "css": "'Gloria Hallelujah', handwriting",
+        "name": "Gloria Hallelujah",
+        "url": "https://fonts.googleapis.com/css?family=Gloria+Hallelujah:400"
+      },
+      {
+        "css": "'Lobster Two', display",
+        "name": "Lobster Two",
+        "url": "https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i"
+      },
+      {
+        "css": "'Handlee', handwriting",
+        "name": "Handlee",
+        "url": "https://fonts.googleapis.com/css?family=Handlee:400"
+      },
+      {
+        "css": "'Boogaloo', display",
+        "name": "Boogaloo",
+        "url": "https://fonts.googleapis.com/css?family=Boogaloo:400"
+      },
+      {
+        "css": "'Neucha', handwriting",
+        "name": "Neucha",
+        "url": "https://fonts.googleapis.com/css?family=Neucha:400"
+      },
+      {
+        "css": "'Patrick Hand', handwriting",
+        "name": "Patrick Hand",
+        "url": "https://fonts.googleapis.com/css?family=Patrick+Hand:400"
+      },
+      {
+        "css": "'Patrick Hand SC', handwriting",
+        "name": "Patrick Hand SC",
+        "url": "https://fonts.googleapis.com/css?family=Patrick+Hand+SC:400"
+      },
+      {
+        "css": "'Rancho', handwriting",
+        "name": "Rancho",
+        "url": "https://fonts.googleapis.com/css?family=Rancho:400"
+      },
+      {
+        "css": "'Merienda', handwriting",
+        "name": "Merienda",
+        "url": "https://fonts.googleapis.com/css?family=Merienda:400,700"
+      }
+    ],
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "",
+    "noImageResize": "",
+    "html_before": "",
+    "headbody": "",
+    "botbody": "",
+    "google-analytics": "",
+    "versionFirst": "4.7.7",
+    "uniqCompNum": 86,
+    "versionPublish": "4.7.7",
     "screenshot": "screenshot.png"
   },
   "pages": {
@@ -27,401 +144,2851 @@
       "components": [
         {
           "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
             },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700"
             },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+            ".navbar-toggler": {
+              "color": "#fac51c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fac51c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fac51c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "font-family": "'Merienda', handwriting"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fac51c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
             }
           },
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": true,
-            "showButtons": false,
+            "hideButtons": true,
             "sticky": true,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": true,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Merienda",
+              "url": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "css": "'Merienda', handwriting"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OVERVIEW</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials1-h\" aria-expanded=\"false\">How to get Mai Chau</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-m\" aria-expanded=\"false\">Contacts</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Homestay</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Tours</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\" aria-expanded=\"false\">Workshops</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/26230036-165126104247997-5260071663656505233-n-170x128.jpg",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "like",
-              "family": "MobiriseIcons",
               "link": "https://mobirise.com",
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-danger\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Aoestay</a>",
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Hoa Ban Homestay</a>",
           "_tags": [
-            "Theme"
+            "Тема"
           ],
           "_name": "menu",
           "_anchor": "menu-0"
         },
         {
           "_params": {
-            "blockTitle": "<h2>Block Title</h2>",
-            "HTMLCode": "<div class=\"container\">\n  <div class=\"row\">\n    <h2>Media Slider Carousel BS3</h2>\n  </div>\n  <div class='row'>\n    <div class='col-md-8'>\n      <div class=\"carousel slide media-carousel\" id=\"media\">\n        <div class=\"carousel-inner\">\n          <div class=\"item  active\">\n            <div class=\"row\">\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>          \n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>        \n            </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"row\">\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>          \n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>        \n            </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"row\">\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>          \n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>      \n            </div>\n          </div>\n        </div>\n        <a data-slide=\"prev\" href=\"#media\" class=\"left carousel-control\">‹</a>\n        <a data-slide=\"next\" href=\"#media\" class=\"right carousel-control\">›</a>\n      </div>                          \n    </div>\n  </div>\n</div>",
-            "extEdit": true,
-            "paddingTop": "20",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/p5309964-1-1200x900.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0"
+          },
+          "title": "Wellcome to&nbsp;Mai Châu",
+          "text": "to touch the local life of Vietnamese ethnic<br><br><br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28324e",
+              "font-family": "'Amatic SC', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Amatic+SC:400,700",
+              "font-size": "80px"
+            },
+            ".mbr-section-lead": {
+              "font-family": "'Patrick Hand', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Patrick+Hand:400",
+              "color": "#ffffff",
+              "text-align": "left",
+              "font-size": "18px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#cccccc"
+          },
+          "title": "About Mai Châu",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1o"
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#cccccc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/vietnam-33-1200x806.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "About Mai Châu",
+          "text": "Mai Châu is a mountainous region located in Hòa Bình Province, approximately 135 km from Hanoi and 65 km from Hòa Bình. The scenery of Mai Châu attracts many tourists. There is an estimated 48,570 inhabitants including 7 Ethnic Minority groups. ‘White Thai’, ‘H’Mong’, ’Zao’, ’Muong’, ’Tay’, ’Hoa’, and ‘Viet’. Mai Chau consists mainly of the ‘White Thai’ people. The Ban Lac People have Thai ancestors that settled in the North-Western area of Vietnam. The two tribes, White Thai and Black Thai, settled in the same area and make up the largest ethnic population of the region.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">Here you can learn more about local crafts &amp; culture&nbsp;</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-1n",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-size": "22px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "56",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#7e9b9f",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/stilthouse16-1-1200x799.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SOLID COLOR INTRO WITH IMAGE",
+          "text": "The Mai Châu area is well known for stilt houses. The type of stilt houses, or pile dwellings, they construct are called Thai stilt houses and are made of bamboo and timber. These houses are elevated 10–12 feet off the ground in order to avoid water damage and shelter animals from the elements.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-a",
+          "_styles": {
+            "P": {
+              "font-size": "22px",
+              "text-align": "left",
+              "color": "#282828"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#cccccc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/p5259603-3-1200x900.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Exploring Mai Chau",
+          "text": "With Hoa Ban Homestay you will get unbelievable expirience of the ethniques life of Vietnam. We have local stilt house for staying, kitchen - where you can order the meal or coock it by yourself. Every evening we are coocking the family dinner, you can also join to this process (if you want) and coock something from your national meal.&nbsp;<br>You can discuss with us about what to see around and how to do it. We help to rent a motorbike or easy rider for the travelling in Mai Chau district.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">Here you can learn more about Mai Chau district</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-1m",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": false,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
+            "count": "2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "blockTitle": "<h2>Block Title</h2>",
-          "HTMLCode": "<div class=\"container\">\n  <div class=\"row\">\n    <h2>Media Slider Carousel BS3</h2>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-md-8\">\n      <div class=\"carousel slide media-carousel\" id=\"media\">\n        <div class=\"carousel-inner\">\n          <div class=\"item\">\n            <div class=\"row\">\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>          \n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>        \n            </div>\n          </div>\n          <div class=\"item\">\n            <div class=\"row\">\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>          \n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>        \n            </div>\n          </div>\n          <div class=\"item active\">\n            <div class=\"row\">\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>          \n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>\n              <div class=\"col-md-4\">\n                <a class=\"thumbnail\" href=\"#\"><img alt=\"\" src=\"http://placehold.it/150x150\"></a>\n              </div>      \n            </div>\n          </div>\n        </div>\n        <a data-slide=\"prev\" href=\"#media\" class=\"left carousel-control\">‹</a>\n        <a data-slide=\"next\" href=\"#media\" class=\"right carousel-control\">›</a>\n      </div>                          \n    </div>\n  </div>\n</div>",
-          "paddingTop": ".block {padding-bottom:20px; padding-top:20px;}",
-          "alias": "htmlblock",
-          "_tags": [
-            "Extension"
+          "title": "How to get Mai Châu",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "testimonial": [
+            {
+              "authorName": "From Hanoi",
+              "authorBio": "",
+              "text": "<p><span style=\"font-style: normal; font-size: 1.125rem;\">There is a possibility to arrive from Hanoi with a public bus for 100k d. You can take also tourist bus to Song La or Dien Bien, but you should drop out at Tong Dao juncton and take taxi to Hoa Ban Homestay.&nbsp;</span><span style=\"font-size: 1.125rem; font-style: normal;\">If you want we can pick you up from Hanoi International Airport to here.</span></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face3.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            },
+            {
+              "authorName": "From Ninh Binh",
+              "authorBio": "",
+              "text": "<p><span style=\"font-style: normal;\">There are at least two public buses that go directly from Ninh Binh to Mai Chau, but please note that the both places are transfer only. The morning bus passes Ninh Binh at around 8:30 and reaches Mai Chau at around 12pm. The other bus is on the late afternoon.</span></p>",
+              "media": {
+                "image": {
+                  "src": "@THEME_PATH@/components/_images/face1.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true
+                }
+              }
+            }
           ],
-          "_name": "htmlblock-block",
-          "_anchor": "htmlblock-block-8"
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "testimonials1",
+          "_anchor": "testimonials1-h",
+          "_styles": {
+            ".card-block P": {
+              "text-align": "center",
+              "font-family": "'Patrick Hand', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Patrick+Hand:400",
+              "color": "#282828"
+            },
+            ".card-footer > div": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Hoa Ban Homestay\n\n",
+              "placeId": "ChIJf1sCyFoINDERYIxKOyGOXgU",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>66 2,, Bản Lác, Chiềng Châu, Mai Châu, Hòa Bình, Vietnam<br><br><br>\n<strong>Contacts</strong><br>\nEmail: hoabanhomestay@gmail.com<br>\nPhone: 0917671066<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li>Booking</li><li>AirBnB</li><li>Facebook</li></ul>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-m",
+          "_styles": {
+            "P": {
+              "font-family": "'Josefin Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i",
+              "font-size": "16px"
+            }
+          }
         }
       ]
     },
     "page1.html": {
       "settings": {
-        "meta_descr": "Web Site Builder Description",
-        "title": "Page 1",
-        "order": 2
+        "meta_descr": "Web Page Creator Description",
+        "title": "Homestay",
+        "order": 3
       },
       "components": [
         {
           "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
             },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700"
             },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+            ".navbar-toggler": {
+              "color": "#fac51c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fac51c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fac51c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "font-family": "'Merienda', handwriting"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fac51c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
             }
           },
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": true,
-            "showButtons": false,
+            "hideButtons": true,
             "sticky": true,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": true,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Merienda",
+              "url": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "css": "'Merienda', handwriting"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OVERVIEW</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials1-h\" aria-expanded=\"false\">How to get Mai Chau</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-m\" aria-expanded=\"false\">Contacts</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Homestay</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Tours</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\" aria-expanded=\"false\">Workshops</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/26230036-165126104247997-5260071663656505233-n-170x128.jpg",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "like",
-              "family": "MobiriseIcons",
               "link": "https://mobirise.com",
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-danger\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Aoestay</a>",
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Hoa Ban Homestay</a>",
           "_tags": [
-            "Theme"
+            "Тема"
           ],
           "_name": "menu",
-          "_anchor": "menu-1"
+          "_anchor": "menu-n"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Hoa Ban Homestay\n\n",
+              "placeId": "ChIJf1sCyFoINDERYIxKOyGOXgU",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>66 2,, Bản Lác, Chiềng Châu, Mai Châu, Hòa Bình, Vietnam<br><br><br>\n<strong>Contacts</strong><br>\nEmail: hoabanhomestay@gmail.com<br>\nPhone: 0917671066<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li>Booking</li><li>AirBnB</li><li>Facebook</li></ul>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-o",
+          "_styles": {
+            "P": {
+              "font-family": "'Josefin Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i",
+              "font-size": "16px"
+            }
+          }
         }
       ]
     },
     "page2.html": {
       "settings": {
+        "meta_descr": "Web Page Creator Description",
+        "title": "Tours",
+        "order": 4
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/-600x386.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.4"
+          },
+          "title": "Travel around Mai Châu",
+          "text": "We offer combined packages of culture and nature tours",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-10",
+          "_styles": {
+            ".mbr-section-lead": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-size": "46px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": false,
+            "showButtons": true,
+            "columnsColor": "#2e2e2e",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#7e9b9f",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/p5169163-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/p5199481-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/p5279709-1-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "<span style=\"font-weight: normal;\">Loop tour to </span><br><span style=\"font-weight: normal;\">View Point of Mai Chau</span><br><div><span style=\"font-weight: normal;\">Hoa Binh Lake</span></div><div><span style=\"font-weight: normal;\">Go Lao Waterfall</span></div>",
+          "subtitle1": "<font color=\"#ffffff\" face=\"Josefin Sans, sans-serif\"><span style=\"font-size: 20px;\">4 hours</span></font>",
+          "caption1": "<i>4 hours</i>",
+          "title2": "Pu Luong Natural Reserve",
+          "subtitle2": "1 Day Tour",
+          "caption2": "",
+          "title3": "Pa Co market and <br>Tat Nang waterfall",
+          "subtitle3": "8 hours",
+          "caption3": "",
+          "title4": "Tour to Nong Luong lake",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"page6.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-y",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#2e2e2e"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "font-size": "20px",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "color": "#cccccc"
+            },
+            ".mbr-cards-col:nth-child(even) .card-title": {
+              "font-size": "20px"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "text-align": "center",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#c1c1c1"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle": {
+              "color": "#5b5b5b",
+              "font-size": "16px"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle DIV": {
+              "font-family": "'Josefin Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i",
+              "font-size": "20px",
+              "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "16px"
+            },
+            ".mbr-cards-col:nth-child(even) .card-text": {
+              "color": "#5b5b5b",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title SPAN": {
+              "font-size": "20px",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "16px",
+              "color": "#c1c1c1"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": false,
+            "showButtons": true,
+            "columnsColor": "#7e9b9f",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#282828",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/p6040287-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/p5259603-2-600x450.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Tour to Nong Luong lake",
+          "subtitle1": "8 hours tour",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Boat trip to Thac Bo temple &amp; &nbsp;cave",
+          "subtitle2": "8 hours tour",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Thai villages in <br>Mai Chau trekking",
+          "subtitle3": "4 hours tour",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Winter hiking to Pha Dom mountain",
+          "subtitle4": "--",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"page8.html\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-13",
+          "_styles": {
+            ".striped .mbr-cards-col:nth-child(2n+1)": {
+              "background-color": "#7e9b9f"
+            },
+            ".mbr-cards-col:nth-child(even) .card-text": {
+              "color": "#cccccc"
+            },
+            ".mbr-cards-col:nth-child(even) .card-title": {
+              "color": "#efefef"
+            },
+            ".mbr-cards-col:nth-child(even) .card-subtitle": {
+              "color": "#7e9b9f"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle": {
+              "color": "#282828",
+              "font-size": "16px"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "color": "#282828"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#282828"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#fac51c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fac51c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fac51c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "font-family": "'Merienda', handwriting"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fac51c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Merienda",
+              "url": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "css": "'Merienda', handwriting"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OVERVIEW</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials1-h\" aria-expanded=\"false\">How to get Mai Chau</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-m\" aria-expanded=\"false\">Contacts</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Homestay</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Tours</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\" aria-expanded=\"false\">Workshops</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Hoa Ban Homestay</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-p"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Hoa Ban Homestay\n\n",
+              "placeId": "ChIJf1sCyFoINDERYIxKOyGOXgU",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>66 2,, Bản Lác, Chiềng Châu, Mai Châu, Hòa Bình, Vietnam<br><br><br>\n<strong>Contacts</strong><br>\nEmail: hoabanhomestay@gmail.com<br>\nPhone: 0917671066<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li>Booking</li><li>AirBnB</li><li>Facebook</li></ul>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-q",
+          "_styles": {
+            "P": {
+              "font-family": "'Josefin Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i",
+              "font-size": "16px"
+            }
+          }
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "meta_descr": "Web Site Generator Description",
+        "title": "Workshops",
+        "order": 9
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/vietnam-42-2000x1333.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.2"
+          },
+          "title": "Workshops",
+          "text": "All of our workshops have the goal of preserving the traditions and crafts of the White Thai ethnic group and of sharing this culture with the whole world. Cooperating with local people at some of our workshops, we support them by giving additional income and maintaining the value of their skills. We hope that due to our guests' interest in folk crafts, our traditions will be carried on by the younger generation.&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1z",
+          "_styles": {
+            ".mbr-section-lead": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#efefef"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "50",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#cccccc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/p6070350-1280x960.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Traditional Dance and Rice Wine party.\n",
+          "text": "One of the most popular forms of folk entertainment in Mai Chau is a traditional dance show. The Xoe Dance of the Thai Ethnic Group has recently been officially recognised as a national cultural heritage.  It is a long-standing folk cultural form of the Thai people that has been passed down through many generations. The dance is performed by boys and girls, who hold hands to form a circle and dance together. The musical instruments for the dance include gourd lutes, drums, two-chord fiddles, gongs and cymbals. Traditional songs are part of the show as well as the bamboo dance  (nhảy sạp) - a joint game with the audience. Drinking a homemade alcohol during this merriment is a must! \"Can\" Wine is a unique speciality of the Mai Chau region. It is different from the strong rice wine which you find in the rest of Vietnam. \"Can\" Wine is made from glutinous rice, ginger, Mai Chau \"com lam\" (a sort of delicious rice in ethnic minority) and various other ingredients. The wine is served in a big ceramic jar with long straws. Sitting around the jar and sipping wine through a straw is the perfect way to socialise and exchange impressions of the festivities. &nbsp;&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-21",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/p6020078-1280x960.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Workshops at \"Hoa Ban Plus\" Factory.",
+          "text": "\"Hoa Ban +\" is a famous handicraft factory in Mai Chau. It was started by Mrs. Thuan in 2008. She had two goals when she started the business - to preserve the White Thai traditional culture and to support poor and disabled women in the Mai Chau area. At \"Hoa Ban+\" Mrs. Thuan gives the women a place to live as well as teaching them how to make products in the old traditional way. Factory products are a combination of weaving, sewing and embroidery. Everything is 100% natural and handmade, even the color of the yarn is made of natural colors from plants. Many of the products are raw silk, which means they are made of silk extracted from silk worms in the area. When you buy one of these products you do not only gain a high quality handmade item, you get a little piece of culture and give these women a chance for a better life. \"Hoa Ban+ is not only a brand, but a hope!\" By the way, the factory is always open for international orders of different volumes.For more information visit Facebook \"Hoa Ban Handmade Handicraft\". <br>\"Hoa Ban Plus\" has a number of workshops for visitors. You can book from us directly.- Weaving on traditional loom and spinning cotton threads- Fabric dyeing with natural dyes.- Bracelet braiding <br>- Embroidery (you will learn how to embroider your name or a friend's name on a bag, scarf or any other product purchased at the factory)",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2a",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#fac51c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fac51c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fac51c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "font-family": "'Merienda', handwriting"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fac51c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Merienda",
+              "url": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "css": "'Merienda', handwriting"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OVERVIEW</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials1-h\" aria-expanded=\"false\">How to get Mai Chau</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-m\" aria-expanded=\"false\">Contacts</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Homestay</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Tours</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\" aria-expanded=\"false\">Workshops</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Hoa Ban Homestay</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-r"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#cccccc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/39267c8cf68b1ecc954f85a1e52c24d2-sticky-rice-bamboo-500x375.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Cooking classes. Traditional White Thai food",
+          "text": "At our homestay we have a tradition to gather together in the evening for a Family Dinner. This is the time to share traditional Vietnamese food and your adventure stories with other guests and our family. Before that you can join us in the kitchen and help us with the cooking. You can learn how to make spring rolls or get to know some local vegetables and simple recipes for their preparation. But for real gourmets and those interested in authentic cuisine we have something special - a cooking class on the delicacies of the White Thai people.To buy the ingredients of our dish we will visit the Mai Chau town market. You will learn how to ask for the price and try to learn some Vietnamese numbers.After that we will cook a traditional meal. Either sticky rice in bamboo, sticky rice cakes with banana leaves, colored sticky rice or grilled, stuffed bamboo. This exciting process will end with a meal and local rice wine.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2b",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/p5128885-1280x960.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Herbal workshops",
+          "text": "Almost every villager in Mai Chau knows the healing qualities of local herbs and plants. It's time to share this knowlege with the world. We have a number of workshops from which you can choose.- \"Herbal SPA and Beauty care\":sauna for face, hair, feet and herbal oil massage <br>- \"Herbal secrets for travellers\" <br>you can learn about local herbs which you can use in case you are in need of emergency assistance during your trip. There are herbs to help cure stomach problems, digestive issues, wounds, headaches, high blood pressure, back pain, muscle pain, fever and flu. You can buy the nessesary herbs to take with you. <br>- Vietnamese Herbs and plants in details.for those who are interested in herbs or currently live in Vietnam we have a more detailed workshop. Here you will learn about where and when you can find the herbs and the healing qualities of the vegetables you can get at a Vietnamese market. You will also learn about which herbs you can use for dyeing fabric. &nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-29",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "46",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#cccccc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/p5179349-1280x960.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Spinning silk from silkworm cocoons\n",
+          "text": "Have you ever seen how natural silk is produced? Do you want to try making it yourself? Well here you can - the ancient technique of silk thread making is now available to our guests.\n<br>At the workshop we will visit a mulberry garden and collect silkworms in golden cocoons directly from the bushes. After that the old master will teach you how to spin a shiny silk thread from the cocoons using traditional machinery and hot water.\n<br>You can also buy some silk products made by the master.&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-25",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/32590215411-6c73e12c2d-b-1024x683.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Fishing with a bamboo stick",
+          "text": "Authentic fishing with a bamboo stick is an activity which is very interesting for children. We will hop on bicycles and ride to a good fishing spot - some of the villagers have fishponds, we will visit one of them. If we get lucky, we will bring our catch to the kitchen and cook it in a local style. ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2c",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#cccccc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/p6070365-1280x960.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Folk games",
+          "text": "Folk games are supposed to be interesting for children but in fact this workshop draws people of all ages. Here you will find fun and active games to train your agility and improve your reaction time and accuracy. In the modern world, it's getting more and more difficult to imagine how much joy can be gained from simple outdoor games with bamboo sticks, ropes and stones. So let's forget about technical progress and play the traditional games of the White Thai people! ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2d",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "50",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/p5299934-1280x960.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Bamboo weaving",
+          "text": "Vietnam is a country of bamboo. It has been used in Vietnamese daily life since ancient times. From bamboo we make various tools, furniture, and even our houses. Almost every man in Vietnamese villages knows the art of weaving bamboo. Men use thin strips of fresh bamboo and weave light and durable items for use by the family around the house.\n<br>We are happy to be able to teach our guests some simple bamboo weaving techniques. The master will help you to weave a fan  or a small basket. You can take your product back home as a unique souvenir from the trip.&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            }
+          },
+          "_anchor": "msg-box5-28"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Hoa Ban Homestay\n\n",
+              "placeId": "ChIJf1sCyFoINDERYIxKOyGOXgU",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>66 2,, Bản Lác, Chiềng Châu, Mai Châu, Hòa Bình, Vietnam<br><br><br>\n<strong>Contacts</strong><br>\nEmail: hoabanhomestay@gmail.com<br>\nPhone: 0917671066<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li>Booking</li><li>AirBnB</li><li>Facebook</li></ul>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-s",
+          "_styles": {
+            "P": {
+              "font-family": "'Josefin Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i",
+              "font-size": "16px"
+            }
+          }
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
         "meta_descr": "Web Maker Description",
-        "title": "Page 2",
+        "title": "Contact us",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#fac51c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fac51c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fac51c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "font-family": "'Merienda', handwriting"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fac51c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Merienda",
+              "url": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "css": "'Merienda', handwriting"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OVERVIEW</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials1-h\" aria-expanded=\"false\">How to get Mai Chau</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-m\" aria-expanded=\"false\">Contacts</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Homestay</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Tours</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\" aria-expanded=\"false\">Workshops</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Hoa Ban Homestay</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-u"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#000000",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#7e9b9f",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Feel free for ask us something.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "form": {
+            "action": "hoabanhomestay@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-w",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#000000"
+            },
+            "SMALL": {
+              "color": "#000000",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          }
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "meta_descr": "Website Generator Description",
+        "title": "Gallery",
         "order": 1
       },
       "components": [
         {
           "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
             },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700"
             },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+            ".navbar-toggler": {
+              "color": "#fac51c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fac51c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fac51c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "font-family": "'Merienda', handwriting"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fac51c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
             }
           },
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": true,
-            "showButtons": false,
+            "hideButtons": true,
             "sticky": true,
-            "collapsed": false,
+            "collapsed": true,
             "transparent": true,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Merienda",
+              "url": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "css": "'Merienda', handwriting"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">ABOUT</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OVERVIEW</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials1-h\" aria-expanded=\"false\">How to get Mai Chau</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-m\" aria-expanded=\"false\">Contacts</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Homestay</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Tours</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\" aria-expanded=\"false\">Workshops</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/26230036-165126104247997-5260071663656505233-n-170x128.jpg",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "like",
-              "family": "MobiriseIcons",
               "link": "https://mobirise.com",
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-danger\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Aoestay</a>",
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Hoa Ban Homestay</a>",
           "_tags": [
-            "Theme"
+            "Тема"
           ],
           "_name": "menu",
-          "_anchor": "menu-2"
+          "_anchor": "menu-11"
         },
         {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": true,
-            "contentAlign": "right",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/26168021-165125934248014-7037593652082235182-n-960x720.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "FULL-SCREEN HEADER",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-3",
-          "_styles": {
-            "H1": {
-              "text-align": "left",
-              "color": "#000000"
-            },
-            ".btn": {
-              "font-family": "'Bitter', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Bitter:400,700"
-            }
-          }
-        },
-        {
-          "_inherit": "header1",
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "images/bg.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "MOBIRISE WEBSITE BUILDER",
-          "text": "Create awesome mobile-friendly websites. No coding and free.",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_anchor": "header4-4"
-        },
-        {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Hoa Ban Homestay\n\n",
+              "placeId": "ChIJf1sCyFoINDERYIxKOyGOXgU",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>66 2,, Bản Lác, Chiềng Châu, Mai Châu, Hòa Bình, Vietnam<br><br><br>\n<strong>Contacts</strong><br>\nEmail: hoabanhomestay@gmail.com<br>\nPhone: 0917671066<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li>Booking</li><li>AirBnB</li><li>Facebook</li></ul>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-12",
+          "_styles": {
+            "P": {
+              "font-family": "'Josefin Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i",
+              "font-size": "16px"
+            }
+          }
+        }
+      ]
+    },
+    "pu_luong.html": {
+      "settings": {
+        "meta_descr": "Web Page Creator Description",
+        "title": "Pu Luong",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "20px",
+              "color": "#5b5b5b"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "4",
+            "paddingBottom": 1,
+            "bgColor": "#f7da64"
+          },
+          "title": "Pu Luong Natural Reserve",
+          "meta": "1 day Tour",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1h"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#f97352"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#f97352"
+            },
+            ".link, .dropdown-item": {
+              "color": "#f97352",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "font-family": "'Merienda', handwriting"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#f97352",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Merienda",
+              "url": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "css": "'Merienda', handwriting"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OVERVIEW</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials1-h\" aria-expanded=\"false\">How to get Mai Chau</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-m\" aria-expanded=\"false\">Contacts</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Homestay</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Tours</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\" aria-expanded=\"false\">Workshops</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Hoa Ban Homestay</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1i"
+        },
+        {
+          "_params": {
             "showBullets": true,
-            "bgColor": "#ffffff",
-            "slides": [
+            "fullWidth": false,
+            "spacing": "1",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
               {
-                "image": "images/slide1.jpg",
-                "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Slide 1",
-                "contentAlign": "right",
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p5199461-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p5199461-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
               },
               {
-                "image": "images/slide2.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Slide 2",
-                "contentAlign": "left",
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p5199481-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p5199481-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
               },
               {
-                "image": "images/slide3.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Slide 3",
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/33784281-2140691659284908-2781560050844434432-n-2-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/33784281-2140691659284908-2781560050844434432-n-2-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p5199530-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p5199530-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
               }
             ]
           },
           "articleLayout": false,
+          "allItem": "All",
           "_tags": [
-            "Theme"
+            "Тема"
           ],
-          "_name": "slider",
-          "_anchor": "slider-5"
+          "_name": "gallery1",
+          "_anchor": "gallery1-1j"
         },
         {
-          "_inherit": "msg-box1",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote>Early in the morning we will open our eyes for a beautiful day and eat some refreshing tropical fruits. Our journey towards Pu Luong National Park will start at 7:30 by a van or motorbikes. We will start climbing the magnificent nature reserve and stop for an authentic Vietnamese breakfast in front of ancient terraces' landscape. As we ride, we can see traditional houses of ethnic people who live at the foothills of the mountains among their farms. We will stop at a number of amazing observation points to overlook the deep green valleys of the reserve, and you will be able to stop at points on your request. We will get down into the valley  of  Phố Đoàn and Cổ lũng villages to experience the local markets. On the way to the villages we will pass by the regional river that the villagers use for agriculture,. We will see the rice fields that are flooded by an authentic method with beautiful water wheel stations. After all of the this goodness, we will get off from the transport and make a short walk towards the clear river of bright blue colours. We will step into the shallow water and go through stunning steps of Hiêu waterfall. A little immersion in running water is perfectly refreshing. Now it is time to have a Vietnamese lunch in one of the villages nearby. Afterwards we will move back to Hoa Ban Homestay and summarise the shared experience. The length of the trip is about 9 hours. \n</blockquote><blockquote>Tour includes:\n</blockquote><blockquote>1. Fuel and transportation. \n</blockquote><blockquote>2. Breakfast, lunch and local snacks.\n</blockquote><blockquote>3. Local guide and staff expenses.</blockquote>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-1k"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#282828"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbrib-undo mbr-iconfont mbr-iconfont-btn\"></span>Back to previous page</a> ",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1l"
+        }
+      ]
+    },
+    "Hoa_Binh.html": {
+      "settings": {
+        "meta_descr": "Web Page Creator Description",
+        "title": "Hoa Binh tour",
+        "order": 5
+      },
+      "components": [
+        {
           "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "color": "#252525"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             },
-            ".mbr-article": {
-              "color": "#252525"
+            ".mbr-section-subtitle": {
+              "color": "#232323",
+              "font-size": "20px"
             }
           },
           "_params": {
-            "showTitle": true,
+            "showMeta": true,
+            "paddingTop": "4",
+            "paddingBottom": 1,
+            "bgColor": "#f7da64"
+          },
+          "title": "Loop tour to Hoa Binh lake &amp; Go Lao waterfall",
+          "meta": "4 hours",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1e"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#fac51c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fac51c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fac51c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "font-family": "'Merienda', handwriting"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fac51c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Merienda",
+              "url": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "css": "'Merienda', handwriting"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OVERVIEW</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials1-h\" aria-expanded=\"false\">How to get Mai Chau</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-m\" aria-expanded=\"false\">Contacts</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Homestay</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Tours</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\" aria-expanded=\"false\">Workshops</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Hoa Ban Homestay</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-17"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "1",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
             "showText": false,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p5169188-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p5169188-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p5169242-2-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p5169242-2-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p5189369-3-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p5189369-3-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p5169129-1280x960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p5169129-1280x960-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
           },
-          "title": "ONE OF THE EASIEST WEBSITE BUILDERS TODAY.",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">TRY FOR FREE</a>",
+          "articleLayout": false,
+          "allItem": "All",
           "_tags": [
-            "Theme"
+            "Тема"
           ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-6"
+          "_name": "gallery1",
+          "_anchor": "gallery1-1c"
         },
         {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote>Our adventure will begin with a climb to the spectacular observation point of Mai Chau (the Mai chau view poit). We will stop there to capture the contrast of the flat rice paddies and towering mountains in our memory and cameras. We will continue driving through the mountains of Thung Ke Pass and stop for a break with tea or coffe and local snacks at another view point. While your body will relax on bamboo floor at local style cafe your eyes explore the valley below and boundless mountain expanse. After that we'll go down to the valley we've just seen.The narrow road passes through the picturesque villages and corn plantations. Buffalo families will greet us with their lazily chewing faces. These cozy landscapes will suddenly give way to a breathtaking view of Hoa Binh Lake. This vast lake overflowed in the middle of the mountains and has a depth of 150 meters. Try to imagine this depth when you look at the special color of the surface of the lake. The Mường and Thai people who live on the lakeside are known for their fishing skills and we can see fishponds float between islands.Toward the end of the trip, we will take a refreshing dip in the Go Lao waterfall. For Jacuzzi lovers  powerful jets of the waterfall will make a massage.After all that fun and experience we will go back to the starting point and that's how our loop finishes. Tour is about 4 hours long.\r</blockquote><blockquote>Tour includes:\r</blockquote><blockquote>1. Fuel and transportation. \r</blockquote><blockquote>2. Tea, coffee and local snacks.\r</blockquote><blockquote>3. Local guide and staff expenses.\r</blockquote><blockquote><br></blockquote>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-1d"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#282828"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbrib-undo mbr-iconfont mbr-iconfont-btn\"></span>Back to previous page</a> ",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1g"
+        }
+      ]
+    },
+    "page8.html": {
+      "settings": {
+        "meta_descr": "Web Page Creator Description",
+        "title": "Thai villages in Mai Chau trekking",
+        "order": 7
+      },
+      "components": [
+        {
           "_styles": {
-            ".mbr-header .mbr-header__text": {
+            ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
             },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center"
+            ".mbr-section-subtitle": {
+              "font-size": "20px",
+              "color": "#5b5b5b"
             }
           },
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showCaption": "noCaption",
-            "showText": true,
-            "showButton": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "darkBackground": false,
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": true,
+            "paddingTop": "4",
+            "paddingBottom": 1,
+            "bgColor": "#f7da64"
           },
-          "title": "MODERN STYLES",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "title": "Thai villages in Mai Chau trekking tour",
+          "meta": "4 hours tour",
           "_tags": [
-            "Theme"
+            "Тема"
           ],
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-7"
+          "_name": "header3",
+          "_anchor": "header3-1p"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#fac51c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fac51c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fac51c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "font-family": "'Merienda', handwriting"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fac51c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Merienda",
+              "url": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "css": "'Merienda', handwriting"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OVERVIEW</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials1-h\" aria-expanded=\"false\">How to get Mai Chau</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-m\" aria-expanded=\"false\">Contacts</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Homestay</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Tours</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\" aria-expanded=\"false\">Workshops</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Hoa Ban Homestay</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1q"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "1",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/road-1224x918.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/road-1224x918-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p5259603-4-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p5259603-4-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p6070379-2-1600x1200.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p6070379-2-1600x1200-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p5299905-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p5299905-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "allItem": "All",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-1r"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote>Mai Chau valley is located in mountainous area in the North East of Vietnam. The ethnic group living here is the White Thai people. To learn more about the culture here you will experience the walking program of visiting 6 villages of Mai Chau.\r</blockquote><blockquote>Local guides will pick you up at the homestay and you will start from walking  around the Lac village - the main touristic spot in Mai Chau. Than we will walk through three other villages between the rice fields and bamboo forest, visit the local museum of  Thai Culture and take a rest next to a small waterfall. After that we will walk to Mai Chau town market where you can buy some necessary items or fresh seasonal fruits from local farmers. We will continue our walk around the rest two villages, taking pictures of  beautiful scenery and daily life of Thai people. We will end the tour after 4 hours of walking. Tour includes: \r</blockquote><blockquote>- Local Guides \r</blockquote><blockquote>- Water \r</blockquote><blockquote>- Fruits \r</blockquote><blockquote>- Tickets for sightseeing \r</blockquote><blockquote>Please take care of taking with you: \r</blockquote><blockquote>- photocamera\r</blockquote><blockquote>&nbsp;- sun cream\r</blockquote><blockquote>- insect sprays \r</blockquote><blockquote>- hat or umbrella\r</blockquote><blockquote><br></blockquote>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-1s"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#282828"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbrib-undo mbr-iconfont mbr-iconfont-btn\"></span>Back to previous page</a> ",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1t"
+        }
+      ]
+    },
+    "page9.html": {
+      "settings": {
+        "meta_descr": "Web Page Creator Description",
+        "title": "Nong Luong",
+        "order": 8
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "font-size": "20px",
+              "color": "#5b5b5b"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "4",
+            "paddingBottom": 1,
+            "bgColor": "#f7da64"
+          },
+          "title": "Thai villages in Mai Chau trekking tour",
+          "meta": "4 hours tour",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1u"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Merienda', handwriting",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#fac51c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fac51c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fac51c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "font-family": "'Merienda', handwriting"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#648286"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#759498!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#7e9b9f"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fac51c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#7e9b9f",
+            "fontSize": "1",
+            "fontName": {
+              "name": "Merienda",
+              "url": "https://fonts.googleapis.com/css?family=Merienda:400,700",
+              "css": "'Merienda', handwriting"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OVERVIEW</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">About</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#testimonials1-h\" aria-expanded=\"false\">How to get Mai Chau</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#contacts2-m\" aria-expanded=\"false\">Contacts</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">SERVICES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Homestay</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page2.html\">Tours</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\" aria-expanded=\"false\">Workshops</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">CONTACT US</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Hoa Ban Homestay</a>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1v"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "1",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/road-1224x918.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/road-1224x918-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p5259603-4-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p5259603-4-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p6070379-2-1600x1200.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p6070379-2-1600x1200-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/p5299905-1200x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p5299905-1200x900-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "allItem": "All",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-1w"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote>Mai Chau valley is located in mountainous area in the North East of Vietnam. The ethnic group living here is the White Thai people. To learn more about the culture here you will experience the walking program of visiting 6 villages of Mai Chau.\n</blockquote><blockquote>Local guides will pick you up at the homestay and you will start from walking  around the Lac village - the main touristic spot in Mai Chau. Than we will walk through three other villages between the rice fields and bamboo forest, visit the local museum of  Thai Culture and take a rest next to a small waterfall. After that we will walk to Mai Chau town market where you can buy some necessary items or fresh seasonal fruits from local farmers. We will continue our walk around the rest two villages, taking pictures of  beautiful scenery and daily life of Thai people. We will end the tour after 4 hours of walking. Tour includes: \n</blockquote><blockquote>- Local Guides \n</blockquote><blockquote>- Water \n</blockquote><blockquote>- Fruits \n</blockquote><blockquote>- Tickets for sightseeing \n</blockquote><blockquote>Please take care of taking with you: \n</blockquote><blockquote>- photocamera\n</blockquote><blockquote>&nbsp;- sun cream\n</blockquote><blockquote>- insect sprays \n</blockquote><blockquote>- hat or umbrella\n</blockquote><blockquote><br></blockquote>",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-1x"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#282828"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbrib-undo mbr-iconfont mbr-iconfont-btn\"></span>Back to previous page</a> ",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1y"
         }
       ]
     }
